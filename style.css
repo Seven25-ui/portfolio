@@ -21,3 +21,6 @@ a { text-decoration: none; color: #1a73e8; }
 /* Dark mode toggle button */ .dark-toggle { position: fixed; top: 1rem; right: 1rem; background: #1a73e8; color: #fff; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; z-index: 1000; }
 
 /* Desktop - horizontal layout inside project cards / @media (min-width: 992px) { .project-card { flex-direction: row; / horizontal: image left, text right */ align-items: center; text-align: left; } }
+.project-card:first-child {
+  border: 2px solid #0c51b8;
+}
